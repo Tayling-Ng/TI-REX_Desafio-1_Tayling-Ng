@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login - Project Manager</title>
-    </head>
-    <body>
-        <header>
-            <img src="" />
-            <h1>Project Manager</h1>
-        </header>
 
-        <main></main>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Project Manager</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-        <footer></footer>
+<body>
+    <header>
+        <img class="image-header" src="" alt="Logomarca" />
+        <!--../images/1_logo.jpg-->
+        <h1>Project Manager</h1>
+    </header>
 
-        <script src="script.js"></script>
-    </body>
+    <main>
+        <section>
+            <div>
+                <h1>Login Information</h1>
+                <p>Enter your credentials</p>
+            </div>
+            <div>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </form>
+                <form>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </form>
+                <button type="submit">Login</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/company" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="copyright">
+            © 2024 Project Manager. All rights reserved.
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
