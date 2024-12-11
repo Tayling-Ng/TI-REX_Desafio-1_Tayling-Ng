@@ -11,70 +11,117 @@
 <body>
     <header class="header">
         <img class="image-header" src="" alt="Logomarca" />
-        <!--images/1_logo.jpg-->
+        <!--../images/1_logo.jpg-->
         <h1 class="h1-header">Project Manager</h1>
         <button class="login-button">Login</button>
     </header>
 
-    <main>
-        <section>
-            <div class="text-content">
-                <h1 class="h1-section1">
-                    Welcome to <span>Project Manager</span>
-                </h1>
-                <p class='paragrafo-section1'>
-                    Get your projects and ideas in order, all in one place!
-                    Sign up now and discover a smarter way to manage your
-                    work with efficiency and teamwork
-                </p>
-                <button class="getstarted-button">Get Started</button>
-            </div>
-            <div class="image-content">
-                <img class='image-section1' src="images/2_image.png" alt="2_image" />
-            </div>
-        </section>
+    <section class='main-section'>
+        <div class="text-content">
+            <h1 class="h1-section1">
+                Welcome to Project Manager
+            </h1>
+            <p class="p-main-section">
+                Get your projects and ideas in order, all in one place!
+                Sign up now and discover a smarter way to manage your
+                work with efficiency and teamwork
+            </p>
+            <button class="getstarted-button">Get Started</button>
+        </div>
+        <div class="image-content">
+            <img class="image-section1" src="../images/2_image.png" alt="2_image" />
+        </div>
 
-        <section>
-            <div class="text-content">
-                <h1 class='h1-section2'>The manager</h1>
-                <p class='paragrafo-section2'>
-                    Project Manager is a tool designed to make organizing
-                    and tracking your daily tasks easier than ever. With a
-                    clean, intuitive interface and powerful features, you
-                    can plan, prioritize, and keep tabs on your projects -
-                    whether you're working solo or a with a team
-                </p>
-                <button class='learnmore-button'>Learn More</button>
-            </div>
-            <div class="image-content">
-                <img class='image-section2' src="images/3_image.png" alt="3_image" />
-            </div>
-            <div class="image-content">
-                <img class='image-section2' src="images/4_image.png" alt="4_image" />
-            </div>
-            <div class="image-content">
-                <img class='image-section2' src="images/5_image.png" alt="5_image" />
-            </div>
-        </section>
+    </section>
 
-        <section>
-            <div class="text-content">
-                <h1 class='h1-section3'>Feature Tools</h1>
-                <p class='paragrafo-section2'>Tools to enhance your project management</p>
-                <button class='viewall'>View All</button>
+    <section class='section2'>
+        <div class="text-content">
+            <h1 class="h1-section2">The manager</h1>
+            <p class="paragrafo-section2">
+                Project Manager is a tool designed to make organizing
+                and tracking your daily tasks easier than ever. With a
+                clean, intuitive interface and powerful features, you
+                can plan, prioritize, and keep tabs on your projects -
+                whether you're working solo or a with a team
+            </p>
+            <button class="learmore-button">Learn More</button>
+        </div>
+        <div class="image-content">
+            <div class="image-item">
+                <img class="image-section2" src="../images/3_image.png" alt="3_image" />
+                <p>Manage Projects</p>
+                <h3>20+ projects</h3>
             </div>
-        </section>
 
-        <section>
-            <div class="text-content">
-                <h1 class='h1-section3'>Subscribe to Update</h1>
-                <p class='paragrafo-section3'>Stay informed with our lates updates</p>
-                <button class='viewall'>View All</button>
+            <div class="image-item">
+                <img class="image-section2" src="../images/4_image.png" alt="4_image" />
+                <p>Track Tasks</p>
+                <h3>50+ tasks</h3>
             </div>
-        </section>
-    </main>
 
-    <footer></footer>
+            <div class="image-item">
+                <img class="image-section2" src="../images/5_image.png" alt="5_image" />
+                <p>Collaborate</p>
+                <h3>10+ team members</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class='section3'>
+        <div class="text-content">
+            <h1 class="h1-section3">Feature Tools</h1>
+            <p class="paragrafo-section2">
+                Tools to enhance your project management
+            </p>
+            <button class="viewall">View All</button>
+        </div>
+        <div class='itens'>
+
+        </div>
+    </section>
+
+    <section class='section4'>
+        <div class="text-content">
+            <h1 class="h1-section3">Subscribe to Update</h1>
+            <p class="paragrafo-section3">
+                Stay informed with our lates updates
+            </p>
+        </div>
+        <div>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </form>
+            <form>
+                <label for="name">Name</label>
+                <input type="password" id="password" placeholder="Enter your name">
+            </form>
+            <button type="submit">Subscribe</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="copyright">
+            © 2024 Project Manager. All rights reserved.
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
