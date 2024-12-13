@@ -66,19 +66,62 @@ section {
     height: 400px;
 }
 
-.cards {
+.columns {
     display: flex;
     gap: 60px;
     justify-content: center;
     padding: 60px 170px 60px 170px;
 }
 
-.cards2 {
+.column {
     background-color: white;
     padding: 10px;
     border-radius: 8px;
     width: 240px;
     height: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f2ff;
+    width: 200px;
+    height: 127px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #331436;
+}
+
+.line-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.purple {
+    background-color: #801e8f;
 }
 
 footer {
