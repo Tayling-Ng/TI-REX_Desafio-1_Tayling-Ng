@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 header {
-    background-color: #331436;
     display: flex;
+    background-color: #331436;
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -14,14 +15,23 @@ header {
 }
 
 .logo-container {
+    display: flex;
     gap: 20px;
     align-items: center;
-    display: flex;
 }
 
 header img {
     width: 50px;
     height: 50px;
+}
+
+.h1-header {
+    color: white;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .red-button {
@@ -38,255 +48,56 @@ header img {
     line-height: 24px;
 }
 
-.h1-header {
-    color: white;
-    height: 36px;
-    font-family: Roboto;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 36px;
+.main-section {
+    display: flex;
+    background-color: #7a1745;
+    width: 1519px;
+    height: 496px;
 }
 
-/*! Section 1
+footer {
+    display: flex;
+    background-color: #331436;
+    gap: 60px;
+    height: 220px;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
 
-/*? Layout
-width: Fill (1,440px)px;
-height: Hug (496px)px;
-padding: 30px 170px 30px 170px;
-gap: 60px;
-opacity: 0px;
-background: #7A1745;
+.copyright {
+    display: flex;
+    gap: 60px;
+    color: #ffffff;
+}
 
-/*? <h1> - Welcome to Project Manager
-width: 520px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #FFFFFF;
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 136px;
+    height: 34.46px;
+}
 
-/*? <p>
-width: 520px;
-height: 72px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #FFFFFF;
+.social-links img {
+    width: 50px;
+}
 
-/*? <botton> Get Started
-width: Fixed (240px)px;
-height: Hug (48px)px;
-padding: 12px 0px 0px 0px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-background: #CB4F57;
+.form label {
+    color: #331436;
+    font-weight: 500;
+    line-height: 20px;
+}
 
-/*? Image
-width: Fixed (540px)px;
-height: Fixed (436px)px;
-gap: 24px;
-opacity: 0px;
-*/
+.form input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 12px;
+    line-height: 20px;
+    width: 520px;
+    height: 36px;
+}
 
-/*! Section 2
-
-/*? Layout
-width: Fill (1,440px)px;
-height: Hug (792px)px;
-padding: 60px 170px 60px 170px;
-gap: 60px;
-opacity: 0px;
-
-/*? <h1> - The Manager
-width: 1100px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #000000;
-
-/*? <p>
-width: 1100px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #020000;
-
-/*? <botton> Learn More
-width: Fixed (240px)px;
-height: Hug (48px)px;
-padding: 12px 0px 0px 0px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-
-/*? Left image
-width: 350px;
-height: 430px;
-top: -43.54px;
-gap: 0px;
-opacity: 0px;
-
-/*? Center image
-width: Fill (340px)px;
-height: Fixed (340px)px;
-gap: 0px;
-opacity: 0px;
-
-/*? Roght image
-width: Fill (340px)px;
-height: Fixed (340px)px;
-gap: 0px;
-opacity: 0px;
-*/
-
-/*! Section 3
-
-/*? Layout
-width: Fill (1,440px)px;
-height: Hug (552px)px;
-padding: 60px 170px 60px 170px;
-gap: 60px;
-opacity: 0px;
-
-/*? <h1> - Feature Tools
-width: 520px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #331436;
-
-/*? <p>
-width: 520px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-/*? <botton> View All
-width: Fixed (240px)px;
-height: Hug (48px)px;
-padding: 12px 0px 0px 0px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-background: #331436;
-*/
-
-/*! Section 4
-
-/*? Layout
-width: Fill (1,440px)px;
-height: Hug (388px)px;
-padding: 60px 170px 60px 170px;
-gap: 60px;
-opacity: 0px;
-
-/*? <h1> - Subscribe to Updates
-width: 520px;
-height: 48px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #331436;
-
-/*? <p>
-width: 520px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-/*? <botton> Subscribe
-width: Fixed (240px)px;
-height: Hug (48px)px;
-padding: 12px 0px 0px 0px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-background: #331436;
-*/
-
-/*! Footer
-
-/*? Layout
-width: Fill (1,440px)px;
-height: Hug (220px)px;
-padding: 60px 0px 0px 0px;
-gap: 60px;
-opacity: 0px;
-background: #331436;
-
-/*? <icons>
-width: 34px;
-height: 34px;
-top: 92.77px;
-left: 229px;
-gap: 0px;
-opacity: 0px;
-
-/*? <p> textos do rodapé
-width: 392px;
-height: 100px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background: #FFFFFF;
-*/
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
