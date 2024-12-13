@@ -60,6 +60,27 @@ header img {
     display: flex;
 }
 
+section {
+    background-color: #0000001a;
+
+    height: 400px;
+}
+
+.cards {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 60px 170px 60px 170px;
+}
+
+.cards2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 240px;
+    height: 300px;
+}
+
 footer {
     display: flex;
     background-color: #331436;
