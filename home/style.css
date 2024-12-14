@@ -85,22 +85,42 @@ header img {
 .section2 {
     display: flex;
     flex-direction: column;
+    width: 1519px;
+    height: 792px;
     gap: 60px;
+    padding: 60px 170px 60px 170px;
 }
 
 .text-content-section2 {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    width: 500px;
-    height: 216px;
+    height: 192px;
     font-family: Roboto;
-    gap: 24px; */
+    gap: 24px;
 }
 
-.image-item {
+.h1-section2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragrafo-section2 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.learmore-button {
+    width: 240px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #331436;
+    color: #ffffff;
+}
+
+.image-section2 {
     width: 340px;
-    height: 420;
+    height: 340px;
 }
 
 .image-content {
@@ -108,7 +128,21 @@ header img {
     gap: 40px;
 }
 
-. footer {
+.text-images {
+    font-family: Roboto;
+    color: #331436;
+}
+
+.text-image-title {
+    font-size: 16px;
+}
+
+.text-image-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
     display: flex;
     background-color: #331436;
     gap: 60px;
