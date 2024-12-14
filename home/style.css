@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+/*! Header*/
 header {
     display: flex;
     background-color: #331436;
@@ -82,6 +83,7 @@ header img {
     height: 437px;
 }
 
+/*! Section 2*/
 .section2 {
     display: flex;
     flex-direction: column;
@@ -142,6 +144,63 @@ header img {
     font-weight: 500;
 }
 
+/*! Section 3*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    /* width: 1519px; */
+    height: 552px;
+    gap: 60px;
+    /* padding: 60px 170px 60px 170px; */
+    background-color: #fcf4b680;
+}
+
+/*! Section 4*/
+.section4 {
+    display: flex;
+    /* width: 1519px; */
+    height: 388px;
+    gap: 60px;
+    padding: 60px 170px 60px 170px;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.text-content-section4 {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 96px;
+    gap: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    font-size: 12px;
+    font-weight: 16px;
+}
+
+.subscribe-button {
+    background-color: #331436;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    width: 240px;
+    height: 48px;
+}
+
+/*! Footer 3*/
 footer {
     display: flex;
     background-color: #331436;
