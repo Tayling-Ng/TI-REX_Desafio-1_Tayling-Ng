@@ -87,7 +87,7 @@ header img {
 .section2 {
     display: flex;
     flex-direction: column;
-    width: 1519px;
+    width: 1440px;
     height: 792px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
@@ -96,6 +96,7 @@ header img {
 .text-content-section2 {
     display: flex;
     flex-direction: column;
+    width: 1100px;
     height: 192px;
     font-family: Roboto;
     gap: 24px;
@@ -151,14 +152,86 @@ header img {
     /* width: 1519px; */
     height: 552px;
     gap: 60px;
-    /* padding: 60px 170px 60px 170px; */
+    padding: 60px 170px 60px 170px;
     background-color: #fcf4b680;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.h1-section3 {
+    font-size: 40px;
+}
+
+.paragrafo-section2 {
+    font-size: 16px;
+}
+
+.text-content-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.viewall-button {
+    background-color: #331436;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.itens {
+    display: flex;
+    gap: 40px;
+}
+
+.image-container {
+    background-color: #331436;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image-section3 {
+    width: 38.01px;
+    height: 38.01px;
+}
+
+.image-item-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-images-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.text-title-section3 {
+    font-size: 20px;
+}
+
+.text-subtitle-section3 {
+    font-size: 16px;
 }
 
 /*! Section 4*/
 .section4 {
     display: flex;
-    /* width: 1519px; */
     height: 388px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
@@ -213,8 +286,15 @@ footer {
 
 .copyright {
     display: flex;
+    font-size: 20px;
+    font-family: Roboto;
     gap: 60px;
     color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 .social-links {
