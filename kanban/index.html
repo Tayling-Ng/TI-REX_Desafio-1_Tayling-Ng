@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanban - Project Manager</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -14,53 +19,140 @@
             <img class="image-header" src="../images/1_logo.png" alt="Logomarca" />
             <h1 class="h1-header">Project Manager</h1>
         </div>
-        <div>
-            <nav class='nav'>
-                <a>Home</a>
-                <a>About</a>
-                <a>Settings</a>
-                <a>Profile</a>
-            </nav>
-        </div>
-        <div class='search-container'>
-            <input type="text" id="search" placeholder="Search in site">
-            <img src="../images/6_lupa.png" alt="Ícone de lupa">
+        <div class='right-header'>
+            <div>
+                <nav class='nav'>
+                    <a href="../home/index.html">Home</a>
+                    <a>About</a>
+                    <a>Settings</a>
+                    <a>Profile</a>
+                </nav>
+            </div>
+            <div class='search-container'>
+                <div class='input-container'>
+                    <input type="text" id="search" placeholder="Search in site">
+                </div>
+                <div class='lupa'>
+                    <img class='icon-lupa' src="../images/6_lupa.png" alt="Lupa">
+                </div>
+            </div>
         </div>
     </header>
 
-    <section>
-        <ul class='columns'>
-            <div class='column'>
-                <p>To Do</p>
-                <div class="card">
-                    <div class="line-one">
-                        <div class="priority">High</div>
-                        <div class="date">Dec 12, 24</div>
+    <main>
+        <section>
+            <ul class='columns'>
+                <div class='column'>
+                    <p>To Do</p>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="high">High</div>
+                            <div class="date">Dec 12, 24</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Create app</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member purple">IT</div>
+                                <div class="member blue">JS</div>
+                                <div class="member pink">NS</div>
+                                <div class="member green">LC</div>
+                                <div class="member brown">GM</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="line-two">
-                        <div class="task">Create app</div>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="mid">Mid</div>
+                            <div class="date">Oct 09, 24</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Train for the project</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member pink">NS</div>
+                                <div class="member brown">GM</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="line-three">
-                        <img src="../images/10_x.png" alt="#">
-                        <div class="members-container">
-                            <div class="member purple">IT</div>
-                            <div class="member">JS</div>
-                            <div class="member">NS</div>
-                            <div class="member">LC</div>
-                            <div class="member">GM</div>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="low">Low</div>
+                            <div class="date">Oct 16, 24</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Make popcorn</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member brown">GM</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div class='column'>
-                <p>In Progress</p>
-            </div>
-            <div class='column'>
-                <p>Complete</p>
-            </div>
-        </ul>
-    </section>
+                <div class='column'>
+                    <p>In Progress</p>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="high">High</div>
+                            <div class="date">Oct 16, 24</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Debug error</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member purple">IT</div>
+                                <div class="member blue">JS</div>
+                                <div class="member pink">NS</div>
+                                <div class="member green">LC</div>
+                                <div class="member brown">GM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='column'>
+                    <p>Complete</p>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="low">Low</div>
+                            <div class="date">Apr 01, 21</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Eat a sandwich</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member brown">GM</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="line-one">
+                            <div class="mid">Mid</div>
+                            <div class="date">Jan 28, 86</div>
+                        </div>
+                        <div class="line-two">
+                            <div class="task">Drink water</div>
+                        </div>
+                        <div class="line-three">
+                            <img src="../images/10_x.png" alt="#">
+                            <div class="members-container">
+                                <div class="member brown">GM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </main>
 
     <footer>
         <div class="social-links">
