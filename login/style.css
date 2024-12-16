@@ -79,6 +79,12 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #611168;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
+}
+
 footer {
     display: flex;
     background-color: #331436;
