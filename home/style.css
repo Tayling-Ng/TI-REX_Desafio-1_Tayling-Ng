@@ -50,6 +50,12 @@ header img {
     align-items: center;
 }
 
+.red-button:hover {
+    background-color: #f5747d;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
+}
+
 .red-button a {
     text-decoration: none;
     color: #fcf4b6;
@@ -127,6 +133,12 @@ header img {
     color: #ffffff;
 }
 
+.learmore-button:hover {
+    background-color: #611168;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
+}
+
 .image-section2 {
     width: 340px;
     height: 340px;
@@ -188,6 +200,12 @@ header img {
     width: 240px;
     height: 48px;
     font-size: 16px;
+}
+
+.viewall-button:hover {
+    background-color: #611168;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
 }
 
 .itens {
@@ -277,6 +295,12 @@ header img {
     border-radius: 8px;
     width: 240px;
     height: 48px;
+}
+
+.subscribe-button:hover {
+    background-color: #611168;
+    transition: background-color 0.3s;
+    transform: scale(1.05);
 }
 
 /*! Footer 3*/
