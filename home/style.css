@@ -36,23 +36,28 @@ header img {
 }
 
 .red-button {
+    display: flex;
     width: 240px;
     height: 48px;
     border-radius: 08px;
-    opacity: 0px;
     padding: 12px;
     background-color: #cb4f57;
-    color: #fcf4b6;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-button a {
+    text-decoration: none;
+    color: #fcf4b6;
 }
 
 .main-section {
     display: flex;
     background-color: #7a1745;
-    width: 1519px;
     height: 496px;
     justify-content: center;
     align-items: center;
@@ -87,7 +92,8 @@ header img {
 .section2 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    justify-content: center;
+    align-items: center;
     height: 792px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
@@ -149,7 +155,6 @@ header img {
 .section3 {
     display: flex;
     flex-direction: column;
-    /* width: 1519px; */
     height: 552px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
@@ -219,6 +224,7 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    color: #331436;
 }
 
 .text-title-section3 {

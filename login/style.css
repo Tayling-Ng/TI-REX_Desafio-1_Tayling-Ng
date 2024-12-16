@@ -39,7 +39,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 495px;
+    height: 400px;
     gap: 60px;
     padding: 60px 170px 60px 170px;
 }
@@ -52,7 +52,6 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    /* padding: 170px 60px 170px 60px; */
 }
 
 .text {
