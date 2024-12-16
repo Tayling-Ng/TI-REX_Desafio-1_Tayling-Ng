@@ -30,5 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
             errorMessage.textContent = 'Por favor, preencha o campo de senha.';
             return;
         }
+
+        localStorage.setItem('userEmail', email);
+        localStorage.setItem('userPassword', password);
     });
 });
